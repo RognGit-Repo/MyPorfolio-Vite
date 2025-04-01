@@ -1,0 +1,16 @@
+<svg class="myLogo" width="125" height="127" viewBox="0 0 125 127" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <!-- bg_square -->
+          <rect class="myLogo_square_bg" width="125" height="127" rx="14" fill="black"/>
+          <!-- circle_head -->
+          <circle cx="63" class="myLogo_circle_head" cy="46" r="21" fill="white"/>
+          
+          <!-- triangle_base -->
+          <path d="M52.5 50L92.7702 126.5H12.2298L52.5 50Z" fill="white"/>
+          <!-- rect head base spacer -->
+          <rect y="67" width="125" height="14" fill="black"/>
+          <!-- rect_base -->
+          <rect x="12" y="71" width="30" height="56" fill="black"/>
+          <!-- rect_head -->
+          <rect x="42" y="25" width="21" height="42" fill="white"/>
+          <circle class="myLogo_eye" cx="70" cy="46" r="5" fill="black"/>
+          </svg>
