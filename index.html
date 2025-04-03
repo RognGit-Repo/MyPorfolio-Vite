@@ -3,13 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
     <title>Vite + TS</title>
+
+    <style>
+      
+  </style>
   </head>
   <body>
-    <div id="app"></div>
+    <load src="src/html/header.html"></load>
+      <div id="app"></div>
     <script type="module" src="/src/main.ts"></script>
+    <script>
+      function toggleMenu() {
+          const nav = document.querySelector('.nav-links');
+          nav.classList.toggle('active');
+      }
+  </script>
   </body>
 </html>

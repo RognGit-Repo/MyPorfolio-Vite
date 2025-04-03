@@ -2,6 +2,9 @@ import './style.css'
 import myLogo from './myLogo.svg'
 import myPhoto from './Ronald.jpg'
 import { setupCounter } from './counter.ts'
+import { loadHTML } from './util/htmlLoader.ts'
+
+loadHTML()
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
