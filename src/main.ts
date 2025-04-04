@@ -1,6 +1,6 @@
 import './style.css'
 import myLogo from './myLogo.svg'
-import myPhoto from './Ronald.jpg'
+import myPhoto from './Ronald.png'
 import { setupCounter } from './counter.ts'
 import { loadHTML } from './util/htmlLoader.ts'
 
@@ -11,7 +11,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     <div class="navbrand">
   
     <div class="Avatar">
-            <img class="my_photo" src="${myPhoto}" alt="MyPhoto">
+            <img class="my_photo" src="${myLogo}" alt="MyPhoto">
             <div class="avatar_info">
               <span class="text-light title">
                 Ronald Reyes
@@ -25,7 +25,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     </div>
 
       <a href="https://www.typescriptlang.org/" target="_blank">
-      <img src="${myLogo}" class="logo myLogo" alt="TypeScript logo" />
+      <img src="${myPhoto}" class="logo myLogo" alt="TypeScript logo" />
     </a>
     <h1>Hi, I'm Ronald ;</h1>
     <div class="card">
